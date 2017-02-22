@@ -1,0 +1,25 @@
+INSERT INTO director (id, name, origin_country, sex) VALUES (1, 'Jon Favreau', 'USA', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (2, 'Louis Leterrier', 'FRANCE', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (3, 'Joe Johnston', 'USA', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (4, 'Joss Whedon', 'USA', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (5, 'Shane Black', 'USA', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (6, 'Alan Taylor', 'USA', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (7, 'Anthony Russo', 'USA', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (8, 'James Gunn', 'USA', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (9, 'Peyton Reed', 'USA', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (10, 'Scott Derrickson', 'USA', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (11, 'Alejandro Gonzalez Inarritu', 'MEXICO', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (12, 'Patty Jenkins', 'USA', 'FEMALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (13, 'Christopher Nolan', 'UK', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (14, 'Damien Chazelle', 'USA', 'MALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (15, 'Tom Ford', 'USA', 'MALE');
+
+INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (1, 'Iron Man', 'USA', 2008, 'ACTION', 1);
+INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (2, 'Iron Man 2', 'USA', 2010, 'ACTION', 1);
+INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (3, 'The Jungle Book', 'USA', 2016, 'FANTASY', 1);
+INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (4, 'The Incredible Hulk ', 'USA', 2008, 'ACTION', 2);
+INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (5, 'Clash of the Titans', 'UK', 2010, 'FANTASY', 2);
+INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (6, 'Captain America: The First Avenger', 'USA', 2011, 'ACTION', 3);
+INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (7, 'Babel', 'MEXICO', 2006, 'DRAMA', 11);
+INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (8, 'Birdman', 'USA', 2014, 'Thriller', 11);
+INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (9, 'The Revenant', 'USA', 2015, 'ADVENTURE', 11);

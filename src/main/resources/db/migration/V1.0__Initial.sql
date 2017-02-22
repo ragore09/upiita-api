@@ -2,7 +2,7 @@ CREATE TABLE director (
   id BIGINT NOT NULL AUTO_INCREMENT,
   name VARCHAR(100) NOT NULL,
   origin_country VARCHAR(50) NOT NULL,
-  sex VARCHAR(5) NOT NULL,
+  sex VARCHAR(10) NOT NULL,
   CONSTRAINT director_pkey PRIMARY KEY (id),
   CONSTRAINT director_name_ukey UNIQUE(name)
 );
