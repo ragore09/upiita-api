@@ -13,7 +13,7 @@ CREATE TABLE movie (
   title VARCHAR(50) NOT NULL,
   origin_country VARCHAR(50) NOT NULL,
   year BIGINT NOT NULL,
-  gender VARCHAR(50) NOT NULL,
+  genre VARCHAR(50) NOT NULL,
   id_director BIGINT NOT NULL,
   CONSTRAINT  movie_pkey PRIMARY KEY (id),
   CONSTRAINT movie_director_fkey FOREIGN KEY (id_director) REFERENCES director(id)
@@ -22,6 +22,7 @@ CREATE TABLE movie (
 CREATE TABLE copy (
   id BIGINT NOT NULL AUTO_INCREMENT,
   isbn VARCHAR(100) NOT NULL,
+  available BOOLEAN NOT NULL DEFAULT TRUE,
   id_movie BIGINT NOT NULL,
   CONSTRAINT copy_pkey PRIMARY KEY (id),
   CONSTRAINT copy_isbn_ukey UNIQUE (isbn),
