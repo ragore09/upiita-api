@@ -21,7 +21,7 @@
 ### Set up ###
 1. Start MySQL service
 2. Create user  ```CREATE USER 'upiita' IDENTIFIED BY 'upiita1234';```
-3. Grant privileges ```GRANT ALL ON *.* TO 'upiita'@'localhost';```
+3. Grant privileges ```GRANT ALL ON *.* TO 'upiita'@'%';```
 
 ### Run ###
 1. Move to the application directory

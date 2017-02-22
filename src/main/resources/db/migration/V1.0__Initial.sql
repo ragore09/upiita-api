@@ -22,7 +22,7 @@ CREATE TABLE movie (
 CREATE TABLE copy (
   id BIGINT NOT NULL AUTO_INCREMENT,
   isbn VARCHAR(100) NOT NULL,
-  available BOOLEAN NOT NULL DEFAULT TRUE,
+  available BOOLEAN NOT NULL DEFAULT 1,
   id_movie BIGINT NOT NULL,
   CONSTRAINT copy_pkey PRIMARY KEY (id),
   CONSTRAINT copy_isbn_ukey UNIQUE (isbn),
@@ -39,9 +39,9 @@ CREATE TABLE client (
 );
 
 CREATE TABLE loan (
-  id BIGINT NOT NULL  AUTO_INCREMENT,
-  creation_date TIMESTAMP NOT NULL,
-  return_date TIMESTAMP NOT NULL,
+  id BIGINT NOT NULL AUTO_INCREMENT,
+  creation_date DATETIME NOT NULL,
+  return_date DATETIME NOT NULL,
   id_client BIGINT NOT NULL,
   id_copy BIGINT NOT NULL,
   CONSTRAINT loan_pkey PRIMARY KEY (id),
