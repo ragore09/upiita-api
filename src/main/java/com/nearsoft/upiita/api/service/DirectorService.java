@@ -19,4 +19,8 @@ public class DirectorService {
         return (List<Director>) directorRepository.findAll();
     }
 
+    public List<Director> getByName(String name) {
+        return directorRepository.findByName(name);
+    }
+
 }
