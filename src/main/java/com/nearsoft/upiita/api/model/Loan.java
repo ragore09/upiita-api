@@ -33,6 +33,8 @@ public class Loan implements Serializable {
     @JoinColumn(name = "id_copy")
     private Copy copy;
 
+    public Loan() {}
+
     public Loan(Date creationDate, Date returnDate, Client client, Copy copy) {
         this.creationDate = creationDate;
         this.returnDate = returnDate;

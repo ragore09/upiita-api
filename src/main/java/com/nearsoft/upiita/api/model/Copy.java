@@ -24,6 +24,8 @@ public class Copy implements Serializable {
     private Boolean available;
     private String isbn;
 
+    public Copy() {}
+
     public Copy(Movie movie, Boolean available, String isbn) {
         this.movie = movie;
         this.available = available;

@@ -6,7 +6,7 @@ INSERT INTO director (id, name, origin_country, sex) VALUES (5, 'Patty Jenkins',
 INSERT INTO director (id, name, origin_country, sex) VALUES (6, 'Christopher Nolan', 'UK', 'MALE');
 INSERT INTO director (id, name, origin_country, sex) VALUES (7, 'Damien Chazelle', 'USA', 'MALE');
 INSERT INTO director (id, name, origin_country, sex) VALUES (8, 'Tom Ford', 'USA', 'MALE');
-INSERT INTO director (id, name, origin_country, sex) VALUES (9, 'Catalina Mastretta', 'MEXICI', 'FEMALE');
+INSERT INTO director (id, name, origin_country, sex) VALUES (9, 'Catalina Mastretta', 'MEXICO', 'FEMALE');
 
 INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (1, 'Iron Man', 'USA', 2008, 'ACTION', 1);
 INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (2, 'Iron Man 2', 'USA', 2010, 'ACTION', 1);

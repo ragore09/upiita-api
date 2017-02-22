@@ -34,6 +34,8 @@ public class Movie implements Serializable {
     private String title;
     private Long year;
 
+    public Movie() {}
+
     public Movie(String title, Country country, Long year, Genre genre, Director director) {
         this.title = title;
         this.country = country;

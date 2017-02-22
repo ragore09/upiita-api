@@ -27,6 +27,8 @@ public class Director implements Serializable {
 
     private String name;
 
+    public Director() {}
+
     public Director(String name, Country originCountry, Sex sex) {
         this.name = name;
         this.originCountry = originCountry;

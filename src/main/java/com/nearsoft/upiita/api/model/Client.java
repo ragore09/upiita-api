@@ -23,6 +23,8 @@ public class Client implements Serializable {
     private String lastname;
     private String address;
 
+    public Client() {}
+
     public Client(String phoneNumber, String name, String lastname, String address) {
         this.phoneNumber = phoneNumber;
         this.name = name;
