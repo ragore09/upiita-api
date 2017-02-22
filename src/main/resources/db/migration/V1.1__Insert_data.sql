@@ -15,7 +15,7 @@ INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (
 INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (5, 'Clash of the Titans', 'UK', 2010, 'FANTASY', 2);
 INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (6, 'Captain America: The First Avenger', 'USA', 2011, 'ACTION', 3);
 INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (7, 'Babel', 'MEXICO', 2006, 'DRAMA', 4);
-INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (8, 'Birdman', 'USA', 2014, 'Thriller', 4);
+INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (8, 'Birdman', 'USA', 2014, 'THRILLER', 4);
 INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (9, 'The Revenant', 'USA', 2015, 'ADVENTURE', 4);
 INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (10, 'Arrested Development', 'USA', 2003, 'COMEDY', 5);
 INSERT INTO movie (id, title, origin_country, year, genre, id_director) VALUES (11, 'Wonder Woman', 'USA', 2017, 'ACTION', 5);
