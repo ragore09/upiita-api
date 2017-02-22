@@ -20,12 +20,12 @@
     
 ### Set up ###
 1. Start MySQL service
-2. Create upiita user  ```CREATE USER 'upiita' IDENTIFIED BY 'upiita1234';```
+2. Create user  ```CREATE USER 'upiita' IDENTIFIED BY 'upiita1234';```
 3. Grant privileges ```GRANT ALL ON *.* TO 'upiita'@'localhost';```
 
 ### Run ###
 1. Move to the application directory
-2. From a terminal, run ```mvn spring-boot:run```
+2. From a terminal and run ```mvn spring-boot:run```
 
 ### Who do I talk to? ###
 * Raul Gonzalez - rgonzalez@nearsoft.com
