@@ -1,0 +1,7 @@
+spring:
+  # mysql datasource configuration
+  datasource:
+    url: jdbc:mysql://localhost/videoclub?createDatabaseIfNotExist=true
+    username: upiita
+    password: upiita1234
+    driver-class-name: com.mysql.jdbc.Driver
