@@ -15,8 +15,20 @@ public class DirectorService {
     @Autowired
     private DirectorRepository directorRepository;
 
+    public Director get(Long id) {
+        return directorRepository.findOne(id);
+    }
+
     public List<Director> getAll() {
         return (List<Director>) directorRepository.findAll();
+    }
+
+    public Director getByName(String name) {
+        return directorRepository.findByName(name);
+    }
+
+    public Director update(Director director) {
+        return directorRepository.save(director);
     }
 
 }
