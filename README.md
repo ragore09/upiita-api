@@ -11,7 +11,7 @@
     * MySQL
    
 ### Requirements ###
-* Java JDK (7 Min)
+* Java JDK (v1.7 min)
 * Maven 3
     * see - http://maven.apache.org/
 * MySQL
